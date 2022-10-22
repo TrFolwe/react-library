@@ -1,0 +1,33 @@
+.modalContainer {
+    color: black;
+    display: none;
+    position: relative;
+    background: #99aab5;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 15px 25px, rgba(0, 0, 0, 0.05) 0 5px 10px;
+}
+
+hr {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 96%;
+    border: 1px solid black;
+}
+
+.modalContainer .closeButton {
+    position: absolute;
+    right: 1%;
+    top: 1%;
+    transition: 0.4s;
+}
+
+.modalContainer .modalForm {
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
