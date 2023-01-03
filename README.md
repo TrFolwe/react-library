@@ -2,6 +2,11 @@
 
 <h1>Library app with react</h1>
 
+# Before using
+```cmd
+npm i
+```
+
 <ul style="list-style-type: square">
 <li>RestAPI Support</li>
 <li>Local SQLite database support</li>
